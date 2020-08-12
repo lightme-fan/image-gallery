@@ -140,3 +140,5 @@ function Gallery(gallery) {
 // Call the Gallery function to seize the gallery one and two 
 const gallery1 = Gallery(document.querySelector('.gallery1'));
 const gallery2 = Gallery(document.querySelector('.gallery2'));
+const gallery3 = Gallery(document.querySelector('.gallery3'));
+
