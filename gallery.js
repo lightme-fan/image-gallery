@@ -6,7 +6,7 @@ function Gallery(gallery) {
     if (!gallery) {
         throw new Error('No variable found');
     }
-
+    
     // Select the elements we need. Change the images into arrays
     const images = Array.from(gallery.querySelectorAll('img'));
     const modal = document.querySelector('.modal');
